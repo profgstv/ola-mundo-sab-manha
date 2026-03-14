@@ -1,0 +1,77 @@
+[gd_scene format=3 uid="uid://mxkdsvybd5d"]
+
+[ext_resource type="Theme" uid="uid://s8d5j4iuspof" path="res://assets/themes/title_screen_theme.tres" id="1_sa3yf"]
+[ext_resource type="Script" uid="uid://cspcid817tuni" path="res://scripts/menu_title_screen.gd" id="2_s4lrb"]
+
+[node name="TitleScreen" type="Control" unique_id=1835075510]
+layout_mode = 3
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+grow_horizontal = 2
+grow_vertical = 2
+
+[node name="Background" type="ColorRect" parent="." unique_id=399535554]
+layout_mode = 0
+offset_right = 1920.0
+offset_bottom = 1080.0
+color = Color(0.12785158, 0.2228688, 0.68099874, 1)
+
+[node name="OlaMundo" type="Label" parent="." unique_id=1598238892]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -378.0
+offset_right = 378.0
+offset_bottom = 241.0
+grow_horizontal = 2
+theme = ExtResource("1_sa3yf")
+text = "Olá Mundo"
+horizontal_alignment = 1
+
+[node name="Menu" type="Panel" parent="." unique_id=2129396762]
+layout_mode = 1
+anchors_preset = 8
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -340.0
+offset_top = -267.0
+offset_right = 339.7041
+offset_bottom = 343.0
+grow_horizontal = 2
+grow_vertical = 2
+theme = ExtResource("1_sa3yf")
+script = ExtResource("2_s4lrb")
+
+[node name="Jogar" type="Button" parent="Menu" unique_id=413195907]
+layout_mode = 1
+anchors_preset = 5
+anchor_left = 0.5
+anchor_right = 0.5
+offset_left = -213.5
+offset_right = 213.5
+offset_bottom = 249.0
+grow_horizontal = 2
+theme = ExtResource("1_sa3yf")
+text = "Jogar"
+
+[node name="Sair" type="Button" parent="Menu" unique_id=1541300129]
+layout_mode = 1
+anchors_preset = 7
+anchor_left = 0.5
+anchor_top = 1.0
+anchor_right = 0.5
+anchor_bottom = 1.0
+offset_left = -157.5
+offset_top = -249.0
+offset_right = 157.5
+grow_horizontal = 2
+grow_vertical = 0
+theme = ExtResource("1_sa3yf")
+text = "Sair"
+
+[connection signal="pressed" from="Menu/Jogar" to="Menu" method="_on_jogar_pressed"]
+[connection signal="pressed" from="Menu/Sair" to="Menu" method="_on_sair_pressed"]
