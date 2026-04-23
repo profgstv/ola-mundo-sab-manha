@@ -9,9 +9,8 @@ const SPEED = 300.0
 func sprite_animation(dir, mov):
 	sprite_direction = dir
 	sprite.play(mov + "_" + dir)
-	pass
 
-func _physics_process(_delta: float) -> void:
+func _physics_process(_delta) -> void:
 	#movimento
 	var direction := Vector2(
 		Input.get_axis("ui_left", "ui_right"),

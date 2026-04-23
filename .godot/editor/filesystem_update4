@@ -1,2 +1,3 @@
 res://scenes/level01.tscn
-res://scenes/templates/tile_map_layer.tscn
+res://scripts/menu_title_screen.gd
+res://scenes/templates/grass_and_path.tscn

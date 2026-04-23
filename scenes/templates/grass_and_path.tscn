@@ -102,5 +102,5 @@ terrain_set_0/terrain_0/name = "caminho"
 terrain_set_0/terrain_0/color = Color(0.73101294, 0, 0.09901587, 1)
 sources/0 = SubResource("TileSetAtlasSource_8es24")
 
-[node name="TileMapLayer" type="TileMapLayer" unique_id=1533933408]
+[node name="GrassAndPath" type="TileMapLayer" unique_id=1533933408]
 tile_set = SubResource("TileSet_gbk3v")
