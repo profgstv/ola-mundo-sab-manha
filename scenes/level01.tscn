@@ -4,6 +4,7 @@
 [ext_resource type="PackedScene" uid="uid://doysqa4mplu8m" path="res://scenes/templates/player.tscn" id="2_8es24"]
 [ext_resource type="Texture2D" uid="uid://ce2q1jcnktqrj" path="res://assets/tiles/fcsbc_gates_and_fences.png" id="3_gbk3v"]
 [ext_resource type="PackedScene" uid="uid://dvdplw0xgpq6b" path="res://scenes/templates/fabrica_predio.tscn" id="4_l8gd6"]
+[ext_resource type="PackedScene" uid="uid://bke3a6cuunc10" path="res://scenes/templates/poste.tscn" id="5_ih8w3"]
 
 [sub_resource type="TileSetAtlasSource" id="TileSetAtlasSource_l8gd6"]
 texture = ExtResource("3_gbk3v")
@@ -116,3 +117,6 @@ tile_set = SubResource("TileSet_ih8w3")
 
 [node name="FabricaPredio" parent="." unique_id=1812977375 instance=ExtResource("4_l8gd6")]
 position = Vector2(1098, 2196)
+
+[node name="Poste" parent="." unique_id=602146019 instance=ExtResource("5_ih8w3")]
+position = Vector2(596, 2906)

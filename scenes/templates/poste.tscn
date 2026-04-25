@@ -1,0 +1,12 @@
+[gd_scene format=3 uid="uid://bke3a6cuunc10"]
+
+[ext_resource type="PackedScene" uid="uid://cuk4ppkqa83k" path="res://scenes/templates/objetos.tscn" id="1_tare8"]
+
+[node name="Poste" unique_id=602146019 instance=ExtResource("1_tare8")]
+
+[node name="Sprite2D" parent="." index="0" unique_id=1512554474]
+position = Vector2(0, -47)
+region_rect = Rect2(128, 0, 64, 192)
+
+[node name="CollisionShape2D" parent="." index="1" unique_id=699901540]
+position = Vector2(0, 34)

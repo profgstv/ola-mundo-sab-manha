@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1776527633
+::res://::1777119430
 character_body_2d.gd::GDScript::6822295543204978503::1775309289::0::1::::<>CharacterBody2D<><>0<>0<><>::
 character_body_2d.tscn::PackedScene::4382323877072973325::1775309301::0::1::::<><><>0<>0<><>::uid://c4g1hf0ecx624::::res://character_body_2d.gd<>uid://bbsgysr4oxsw::::res://icon.svg
 icon.svg::CompressedTexture2D::73358131203934262::1773491007::1774110819::1::::<><><>0<>0<>0ed71965aef12a0dbb3292e628cdab2b<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -48,13 +48,13 @@ fcsbc_objects.png::CompressedTexture2D::8353316181640981793::1774700290::1774700
 fcsbc_terrain.png::CompressedTexture2D::6982853335273547879::1774700290::1774700291::1::::<><><>0<>0<>904aaf19e73ac29e9e64ec24be74a2b2<>res://.godot/imported/fcsbc_terrain.png-a3857a32da24ff1712d52c7e1414c21f.ctex::
 LICENSE.txt::TextFile::-1::1774700291::0::1::::<><><>0<>0<><>::
 screenshot.png::CompressedTexture2D::1704480269736075276::1774700291::1774700291::1::::<><><>0<>0<>b8df05fe04459355219de7b40ce704ac<>res://.godot/imported/screenshot.png-9c12955c2be08c8db833f235b6bf119e.ctex::
-::res://scenes/::1776527611
-level01.tscn::PackedScene::8488329928267410740::1776527705::0::1::::<><><>0<>0<><>::uid://bd6d860f5hjuf::::res://scenes/templates/tile_map_layer.tscn<>uid://doysqa4mplu8m::::res://scenes/templates/player.tscn<>uid://ce2q1jcnktqrj::::res://assets/tiles/fcsbc_gates_and_fences.png<>uid://dvdplw0xgpq6b::::res://scenes/templates/fabrica_predio.tscn
+::res://scenes/::1776527750
+level01.tscn::PackedScene::8488329928267410740::1776527750::0::1::::<><><>0<>0<><>::uid://bd6d860f5hjuf::::res://scenes/templates/grass_and_path.tscn<>uid://doysqa4mplu8m::::res://scenes/templates/player.tscn<>uid://ce2q1jcnktqrj::::res://assets/tiles/fcsbc_gates_and_fences.png<>uid://dvdplw0xgpq6b::::res://scenes/templates/fabrica_predio.tscn
 title_screen.tscn::PackedScene::26187068184184627::1775310738::0::1::::<><><>0<>0<><>::uid://s8d5j4iuspof::::res://assets/themes/title_screen_theme.tres<>uid://cspcid817tuni::::res://scripts/menu_title_screen.gd
-::res://scenes/templates/::1776517780
-player.tscn::PackedScene::8192572452046520646::1775310883::0::1::::<><><>0<>0<><>::uid://2elpim8lokk2::::res://scripts/player.gd<>uid://bdbomg53dp7ho::::res://assets/sprites/player/standard/idle.png<>uid://ce8udfm8ayq11::::res://assets/sprites/player/standard/run.png
+::res://scenes/templates/::1776527729
 fabrica_predio.tscn::PackedScene::8640352494552068823::1776517780::0::1::::<><><>0<>0<><>::uid://xm71e7wbh0im::::res://assets/tiles/fcsbc_building.png<>uid://bvyhs52lv3flp::::res://assets/tiles/fcsbc_logo.png
-tile_map_layer.tscn::PackedScene::2661225674271730505::1774703134::0::1::::<><><>0<>0<><>::uid://c6qstr2kvh2wh::::res://assets/tiles/fcsbc_terrain.png
+grass_and_path.tscn::PackedScene::2661225674271730505::1776527729::0::1::::<><><>0<>0<><>::uid://c6qstr2kvh2wh::::res://assets/tiles/fcsbc_terrain.png
+player.tscn::PackedScene::8192572452046520646::1775310883::0::1::::<><><>0<>0<><>::uid://2elpim8lokk2::::res://scripts/player.gd<>uid://bdbomg53dp7ho::::res://assets/sprites/player/standard/idle.png<>uid://ce8udfm8ayq11::::res://assets/sprites/player/standard/run.png
 ::res://scripts/::1776518165
 menu_title_screen.gd::GDScript::6067342149291904042::1776518165::0::1::::<>Panel<><>0<>0<><>::
 player.gd::GDScript::1904051403311203031::1775307572::0::1::::<>CharacterBody2D<><>0<>0<><>::
