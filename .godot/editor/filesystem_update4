@@ -1,2 +1,2 @@
-res://scenes/templates/poste.tscn
-res://scenes/level01.tscn
+res://scenes/templates/dialogo.tscn
+res://scripts/dialogo.gd
