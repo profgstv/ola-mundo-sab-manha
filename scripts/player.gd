@@ -32,3 +32,9 @@ func _physics_process(_delta) -> void:
 		sprite_animation("up", "run")
 	else:
 		sprite_animation(sprite_direction, "idle")
+
+func _process(_delta: float) -> void:
+	set_physics_process(! Global.dialogo_esta_ativo)
+	if Global.dialogo_esta_ativo:
+		sprite_animation(sprite_direction, "idle")
+	pass
